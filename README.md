@@ -23,9 +23,11 @@ https://github.com/arielqns/friend-finder
 
 - NPM Install Dependencies
     1. Init
-    2. express
-    3. express-handlebars
-    4. mysql
+    2. body-parser --save
+    3. express --save
+    4. express-handlebars --save
+    5. method-override --save
+    6. mysql --save
 
 - Open server.js in terminal.
 - Set your local PORT
