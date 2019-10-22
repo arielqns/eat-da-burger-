@@ -24,15 +24,12 @@ router.get('/', function(req, res) {
 //   });
 // });
 
-// router.put('/burgers/:id', function(req, res) {
-//   var condition = 'id = ' + req.params.id;
-
-//   burger.updateOne({
-//     devoured: true
-//   }, condition, function(data) {
-//     res.redirect('/');
-//   });
-// });
+router.put('/burgers/update', function(req, res) {
+  burger.update(req.body.burger_id, function(result){
+      console.log(result);
+        res.redirect('/');
+  });
+});
 
 // Export routes for server.js to use.
 module.exports = router;
