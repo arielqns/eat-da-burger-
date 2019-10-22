@@ -1,10 +1,20 @@
-Create the burgers_db.
-Switch to or use the burgers_db.
-Create a burgers table with these fields:
+-- Create the burgers_db database --
+CREATE DATABASE burgers_db;
+USE burgers_db;
 
+-- Create a burgers table with the required fields --
+CREATE TABLE burgers
+(
+	id int NOT NULL AUTO_INCREMENT,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+  	ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  	dt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  	PRIMARY KEY(id)
+);
 
-id: an auto incrementing int that serves as the primary key.
-
-burger_name: a string.
-
-devoured: a boolean.
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cheese Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Hamburger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Blue- Cheese Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Pizza Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Veggie Burger', false);
