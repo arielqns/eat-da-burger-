@@ -17,7 +17,7 @@ var orm = {
     },
     //Include create method and connection query that will insert values into table
     create: function(tableInput, val, cb){
-        connection.query('INSERT INTO '+ tableInput +" (burger_name) VALUES ("+val+");", function(err,result){
+        connection.query('INSERT INTO '+ tableInput +" (burger_name) VALUES ('"+val+"');", function(err,result){
             if(err)throw err;
             cb(result);
         })
