@@ -13,7 +13,7 @@ var burger = {
     },
   //add create function
   create: function (name, cb) {
-        origin.create('burger', name, cb);
+        orm.create('burger', name, cb);
     }
 }
 module.exports = burger; 
