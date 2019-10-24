@@ -3,7 +3,7 @@
 
 # Links
 - Deployment Link: @ Heroku 
-- GitHub Resipository Link: 
+- GitHub Resipository Link: https://github.com/arielqns/eat-da-burger-
 
 # Created by
 Ariel Quinones, Octomber 2019
@@ -14,12 +14,12 @@ Friend-finder is a compatibility-based application. The full-stack site takes in
 
 # Instructions:
 <strong>Try the App on Heroku</strong>
-- Deployment Link @ Heroku https://frozen-sea-97487.herokuapp.com/
+- Deployment Link @ Heroku 
     
 <strong>To run the App locally</strong>
 
 - Git clone in your local git repo
-https://github.com/arielqns/friend-finder
+https://github.com/arielqns/eat-da-burger-
 
 - NPM Install Dependencies
     1. Init
