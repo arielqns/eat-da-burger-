@@ -1,6 +1,7 @@
 <div class = "container">
     <div class = "row">
         <div class= "col-xs-12 text-center" id="top-bar">
+            <img src="/assests/img/da-burger-new-farm-073.jpg" width="400px" id="burger_image">
             <h1>EAT DA BURGER!</h1>
         </div>
         <div class="col-xs-6 text-center" class="task">
@@ -13,8 +14,8 @@
                 <div class ="col-xs-3 text-center">
                     <form method="POST" action="/burgers/update?_method=PUT" class="button-size">
                     <input type="hidden" name="burger_id" type="text" value={{this.id}}>
-                    <br>
                     <button type="submit" class="burgerAvailable">DEVOUR IT!</button>
+                    <p>Click DEVOUR IT! to Delete from list.</p>
                     </form>
                 </div>
                 {{/unless}}
@@ -37,10 +38,8 @@
         <div class="col-xs-12 text-center center_section">
             <form action="/burgers/create" method="POST">
             <input type="text" name="burger_name" class="form-control" value="" id="enter_text">
-            <p>Enter in a burger you would like to eat!</p>
-            <br>
+            <p>Enter in a burger you would like to eat and hit SUBMIT!</p>
             <button type="submit" class="addBurgerButton" id="text-enter-button">SUBMIT</button>
-            <br>
             </form>
             
         </div>

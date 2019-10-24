@@ -16,21 +16,22 @@ body {
 
 }
 
-/* #cute_burger {
+#burger_image {
     display: block;
    margin: auto;
-} */
+}
 
 h1 {
     text-align: center;
-    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Times New Roman', cursive;
+    font-weight: normal;
     font-size: 65px;
     margin: 50px;
     color: white;
 }
 
 .burgerAvailable {
-    font-family: 'Crafty Girls', cursive;
+    font-family: 'Arial', cursive;
     font-weight: normal;
     font-size: 20px;
     text-align: center;
@@ -48,7 +49,7 @@ h1 {
 }
 
 .burgerEaten {
-    font-family: 'Crafty Girls', cursive;
+    font-family: 'Arial', cursive;
     font-weight: normal;
     font-size: 20px;
     text-align: center;
@@ -58,10 +59,13 @@ h1 {
     padding: 10px;
     background-color: black;
 }
+form{
+    text-align: center;
+}
 
 h2 {
      text-align: center;
-    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Arial', cursive;
     font-size: 40px;
     margin: 50px;
 }
@@ -72,7 +76,7 @@ h2 {
 
 .addBurgerButton {
     
-    font-family: 'Crafty Girls', cursive;
+    font-family: 'Arial', cursive;
     font-weight: normal;
     font-size: 20px;
     text-align: center;
@@ -96,6 +100,12 @@ h2 {
    color: white;
 }
 p, pre {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 50px;
     color: white;
 }
 .row {
