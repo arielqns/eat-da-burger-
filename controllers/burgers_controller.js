@@ -1,14 +1,13 @@
 // Pull in required dependencies
 var express = require('express');
 var router = express.Router();
-var burger = require('../models/burger.js');
 
 // Import the model (burger.js) to use its database functions.
 var burger = require('../models/burger.js');
 
 // Create the routes and associated logic
 // GET
-router.get('/', function(req, res) {
+router.get('/', function(_req, res) {
   burger.all(function(burger_data) {
     console.log(burger_data);
     res.render('index',{burger_data});
