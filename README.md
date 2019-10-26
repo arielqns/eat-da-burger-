@@ -2,8 +2,9 @@
 # <strong>eat-da-burger</strong>
 
 # Links
-- Deployment Link: @ Heroku https://agile-taiga-62441.herokuapp.com/
+- Deployment Link: @ Heroku https://agile-taiga-62441.herokuapp.com/ (not working see link for demo in terminal)
 - GitHub Resipository Link: https://github.com/arielqns/eat-da-burger-
+- See DEMO https://drive.google.com/file/d/1t_o4ogeciKCxqa8ThI2VPpwgPvqDmIdS/view
 
 # Created by
 Ariel Quinones, Octomber 2019
@@ -20,7 +21,7 @@ Eat da burger as an application where the user can create a burgger logger using
 1. Add a burger name and hit submit.
 2. The new burger will display.
 3. When the user clicks DEVOUR IT!. The burger will move to a list.
-    
+
  
 
 # Created using: 
