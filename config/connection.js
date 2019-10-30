@@ -1,6 +1,8 @@
 // Pull in required dependencies
 var mysql = require('mysql');
 
+var password = require('../keys');
+
 // Create the MySQL connection object
 var connection;
 
@@ -10,7 +12,7 @@ if (process.env.JAWSDB_URL){
 connection = mysql.createConnection({
 		host: 'localhost',
 		user: 'root',
-		password: 'Ambarqui5!',
+		password: password.password.db,
 		database: 'burgers_db'
 	});
 };
